@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Navya's Portfolio</title>
+
+  <link rel="stylesheet" href="port.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    
+
+  <header class="header">
+
+    <div class="name">
+
+      <i class="fa-solid fa-code"></i> <b>Pushpa Navya</b>
+
+    </div>
+
+    <nav>
+
+        <ul>
+            
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <main>
+
+    <img src="C:\Users\Navya\OneDrive\Desktop\CodSoft\Screenshot 2023-12-04 152436.png">
+
+    <p id="p1"><b>Hi There,<br> I'm <span style="color: rgb(231, 157, 18);">Pushpa Navya</span>. Intern</b></p>
+
+    <p id="p2">I Am Into <span style="color:rgb(77, 6, 6);">Web Development</span></p>
+
+    <p id="p3">I'm a student from Dayananda Sagar Academy of Technology and Management (DSATM). I'm currently in 5th sem, CSE major. I'm currently doing my internship at CodSoft on Web Development in which I'm very instrested. Welcome to my Portfolio Website. I'm very exited to learn more and more. </p>
+
+    <button>About me <span id="s1"><i class="fa-sharp fa-regular fa-circle-down"></i></span></button>
+
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>Here are some of the skills I've acquired:</p>
+      <ul>
+        <p><li>C</li></p>
+        <p><li>C++</li></p>
+        <p><li>Java</li></p>
+        <p><li>HTML</li></p>
+        <p><li>CSS</li></p>
+        <p><li>Python</li></p>
+        <p><li>DSA</li></p>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Check out some of my awesome projects:</p>
+      <ul>
+        <p><li>Project 1 - <a href="#">Fake News Detection using R-Programming</a></li></p>
+        <p><li>Project 2 - <a href="#">Online Banking for basic banking Operations using C++</a></li></p>
+        <p><li>Project 1 - <a href="#">Rock, Paper, Scissors game using Python</a></li></p>
+      </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Did my High Schooling at Dr. KKR's Gowtham International School, Vijayawada.</p>
+        <p>Intermediate at Narayana Jr. College, Hyderabad.</p>
+        <p>Currently doing my B.E at DSATM, Bangaluru.</p>
+    </section>
+
+    <section id="Courses">
+        <h2>Courses</h2>
+        <p>C++, Python from Infosys Spring Board</p>
+        <p>Python from IBM</p>
+        <p>Azure Fundamentals (AZ-900)exam cram from Microsoft</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><li>Email: <a href="#">navyaicu@gmail.com</a></li></p>
+        <p><li>Phone: <a href="#">+91 7993599251</a></li></p>
+        <p><li>Linkedin: <a href="#">Pushpa Navya Tummala</a></li></p>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="social">
+
+      <ul style="list-style-type: none;">
+
+        <a href="#"><li><i class="fa-brands fa-linkedin-in"></i></li></a>
+
+        <a href="#"><li><i class="fa-brands fa-github"></i></li></a>
+
+        <a href="#"><li><i class="fa-brands fa-twitter"></i></li></a>
+
+        <a href="#"><li><i class="fa-brands fa-telegram"></i></li></a>
+
+        <a href="#"><li><i class="fa-brands fa-instagram"></i></li></a>
+
+      </ul>
+
+    </div>
+
+  </footer>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
